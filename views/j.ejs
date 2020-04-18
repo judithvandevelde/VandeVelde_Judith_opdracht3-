@@ -1,0 +1,12 @@
+<%- include('header'); %>
+<script src="/js/script.js"></script>
+
+<h2>In de kijker</h2>
+
+<img class="pic" src="<%=tien%>" alt="" class="blog-image"  width="80%" >
+<p class="imgnaam"> <%-museum[9].naam%></p>
+<p class="info"> <span>Uitvoerder: </span><%-museum[9].uitvoerder%> , <%-museum[0].datering%></p>
+<p class="info"> <span>Beschrijving: </span><%-museum[9].beschrijving%></p>
+<p class="info"> <span>Periode: </span><%-museum[9].periode%></p>
+
+<%- include('footer'); %>
